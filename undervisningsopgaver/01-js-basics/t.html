@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="number" id="a">
+    <input type="number" id="b">
+    <button>Find sum</button>
+    <script>
+        const felt1 = document.querySelector("#a");
+        const felt2 = document.querySelector("#b");
+        const button = document.querySelector("button");
+        button.addEventListener("click", visValue);
+
+        function visValue() {
+            console.log(felt1.value++felt2.value);
+        }
+
+        function findSum(a, b) {
+            const sum = a + b;
+            return sum;
+        }
+
+        console.log(findSum);
+    </script>
+</body></html>
