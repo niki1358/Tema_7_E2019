@@ -7,16 +7,16 @@
     <title></title>
     <style>
         .firkant {
-            height: 100px;
-            width: 100px;
+            height: 200px;
+            width: 200px;
             line-height: 100px;
             text-align: center;
             background: green;
         }
 
         .cirkel {
-            height: 100px;
-            width: 100px;
+            height: 200px;
+            width: 200px;
             line-height: 100px;
             border-radius: 50%;
             text-align: center;
@@ -31,6 +31,7 @@
     <script>
         const firkantURL = `http://helf-kea.dk/test/frog.png`
         const cirkelURL = `http://helf-kea.dk/test/gris.png`
+        const foxURL = `http://helf-kea.dk/test/fox.png`
 
         // document.querySelector(".firkant").innerHTML = `<img src="http://mabe-kea.dk/E19/pics/frog.png " alt="frø">`
         // document.querySelector(".cirkel").innerHTML = `<img src="http://mabe-kea.dk/E19/pics/pig.png" alt="gris">`
@@ -44,6 +45,12 @@
 
         const cirkel = document.querySelector(".cirkel");
         const imgC = document.createElement("img");
+        imgC.src = cirkelURL;
+        imgC.alt = "lyserød gris";
+        cirkel.appendChild(imgC);
+
+        const fox = document.querySelector(".cirkel");
+        const imgF2 = document.createElement("img");
         imgC.src = cirkelURL;
         imgC.alt = "lyserød gris";
         cirkel.appendChild(imgC);
