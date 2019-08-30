@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            max-width: 1420px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        img {
+            width: 150px;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        }
+
+        article {
+
+            font-family: monospace;
+            text-align: center;
+            border: solid black 2px;
+            margin: 10px;
+            padding: 10px;
+            background: #c72944;
+
+
+        }
+
+        a {
+            text-decoration: none;
+            color: darkred;
+            font-size: 1rem;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Personer</h1>
+
+    <template>
+        <article>
+
+            <h2>Navn</h2>
+            <a href=""></a>
+            <img src="" alt="" class="profil-billede">
+        </article>
+    </template>
+
+    <section id="person-liste"></section>
+
+    <script>
+        let elever = [];
+
+        document.addEventListener("DOMContentLoaded", start);
+
+        function start() {
+            hentJson()
+        }
+
+        async function hentJson() {
+            const response = await fetch("https://spreadsheets.google.com/feeds/list/1Xge7slZ9dEOTCn1Yxl3OE4xgvrXOL8Y_iu3WN1yGB1U/od6/public/values?alt=json");
+            console.log(response);
+            elever = await response.json();
+            console.log(elever);
+
+            visJson()
+        }
+
+        function visJson() {
+
+            elever.feed.entry.forEach((person) => {
+
+                const skabelon = document.querySelector("template").content;
+                const listeElm = document.querySelector("#person-liste");
+
+                const klon = skabelon.cloneNode(true);
+
+                console.log(klon)
+                const h2 = klon.querySelector("h2");
+                h2.textContent = person.gsx$navn.$t;
+
+                const a = klon.querySelector("a")
+                a.href = "https://www.github.com/" + person.gsx$github.$t;
+                a.textContent = person.gsx$github.$t;
+
+
+
+
+                const img = klon.querySelector("img");
+                img.src = person.gsx$billede.$t;
+                img.alt = "billede af " + person.gsx$navn.$t;
+                listeElm.appendChild(klon);
+
+            });
+
+        }
+
+        //        console.log(person2.navn, person2.billede)
+    </script>
+</body></html>

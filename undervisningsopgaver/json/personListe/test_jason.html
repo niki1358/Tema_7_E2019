@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Personer</h1>
+
+    <template>
+        <article>
+
+            <h2>navn</h2>
+            <img src="" alt="" class="profil-billede">
+        </article>
+    </template>
+
+    <section id="person-liste"></section>
+
+    <script>
+        let undervisereArray = [];
+
+        document.addEventListener("DOMContentLoaded", start);
+
+        function start() {
+            hentJson()
+        }
+
+        async function hentJson() {
+            const response = await fetch("03-json.json");
+            console.log(response);
+            undervisereArray = await response.json();
+            console.log(undervisereArray);
+
+            visJson()
+        }
+
+        function visJson() {
+
+            undervisereArray.forEach(person => {
+
+                const skabelon = document.querySelector("template").content;
+                const listeElm = document.querySelector("#person-liste");
+
+                const klon = skabelon.cloneNode(true);
+
+                console.log(klon)
+                //            console.log(person.navn)
+                const h2 = klon.querySelector("h2");
+                h2.textContent = person.navn;
+                h2.textContent += " hold " + person.hold;
+                const img = klon.querySelector("img");
+                img.src = person.thumb;
+                img.alt = "billede af " + person.navn;
+                listeElm.appendChild(klon);
+
+            });
+
+        }
+
+        //        console.log(person2.navn, person2.billede)
+    </script>
+</body></html>

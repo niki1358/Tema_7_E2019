@@ -1,0 +1,22 @@
+[{
+    "navn": "Martin",
+    "hold": "A",
+    "højde": 188,
+    "hårfarve": "Blå",
+    "billede": "martin.jpg",
+    "thumb": "martin-1.jpg"
+}, {
+    "navn": "Kamilla",
+    "hold": "B",
+    "højde": 170,
+    "hårfarve": "sølv",
+    "billede": "https://kvikea.dk/pix1.jpg",
+    "thumb": "https://kvikea.dk/pix2.jpg"
+}, {
+    "navn": "Alan",
+    "hold": "B",
+    "højde": 170,
+    "hårfarve": "Rød",
+    "billede": "https://ale-kea.dk/images/alan1.jpg",
+    "thumb": "https://ale-kea.dk/images/alan_thumb.JPG"
+}]

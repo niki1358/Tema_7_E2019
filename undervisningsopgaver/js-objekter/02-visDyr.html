@@ -8,6 +8,8 @@
 
 <body>
     <article>
+        <h2></h2>
+        <p></p>
         <img>
     </article>
 
@@ -23,27 +25,27 @@
                 type: " pattedyr",
                 billede: "http://mabe-kea.dk/E19/pics/pig.png",
                 levested: " svinefarme"
-
-
             };
 
+            let article = document.querySelector("article");
 
-            const article = document.querySelector("article");
-            const img = document.querySelector("img");
+            article.querySelector("h2").textContent = "Dyr:" + dyr.navn;
+            article.querySelector("p").textContent = " Type:" + dyr.type;
+            article.querySelector("p").textContent += " Levested:" + dyr.levested;
 
-            article.textContent = "Dyr:" + dyr.navn;
-            article.textContent += " Type:" + dyr.type;
-            article.textContent += " Levested:" + dyr.levested;
+            let img = document.querySelector("article img");
+            console.log(article, img);
 
-            console.log(article), img;
             img.src = dyr.billede;
             img.alt = "billede af dyr";
 
 
-            console.log("Dyr:" + dyr.navn, "Type:" + dyr.type, "Levested:" + dyr.levested);
-
+            console.log(dyr, article, img);
 
         }
+
     </script>
 
-</body></html>
+</body>
+
+</html>

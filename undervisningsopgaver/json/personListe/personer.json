@@ -1,0 +1,862 @@
+[
+    {
+        "navn": "Helle Frederiksen",
+        "github": "helefred",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-1/26166348_10155540526277499_6159377833378174933_n.jpg?_nc_cat=111&_nc_ht=scontent-arn2-1.xx&oh=defa7c49aace8dd8a254a120cc18139e&oe=5CEBB33D",
+        "alder": 72,
+        "køn": "k",
+        "email": "helf@kea.dk",
+        "hold": "b",
+        "historie": "Til september går jeg på pension!! :))"
+  },
+    {
+        "navn": "Klaus Mandal",
+        "github": "MondaleMondale",
+        "billede": "https://www.facebook.com/search/async/profile_picture/?fbid=554986155&width=72&height=72",
+        "alder": 25,
+        "køn": "m",
+        "email": "klmh@kea.dk",
+        "hold": "b",
+        "historie": "kkk"
+  },
+    {
+        "navn": "Kamilla Viktor",
+        "github": "kvikea",
+        "billede": "https://www.facebook.com/search/async/profile_picture/?fbid=1315797926&width=72&height=72",
+        "alder": 39,
+        "køn": "k",
+        "email": "kvi@kea.dk",
+        "hold": "a",
+        "historie": "vvv"
+  },
+    {
+        "navn": "Martin Bregnhøi",
+        "github": "martinbregnhoi",
+        "billede": "https://mabe-kea.dk/martin.jpg",
+        "alder": 80,
+        "køn": "m",
+        "email": "mabe@kea.dk",
+        "hold": "a",
+        "historie": "mmm"
+  },
+    {
+        "navn": "Asbjørn Elle Schmidt",
+        "github": "asbj0375",
+        "billede": "https://www.facebook.com/photo.php?fbid=10215822819224282&set=a.1571376685198&type=3&theater",
+        "alder": 25,
+        "køn": "m",
+        "email": "asbj0375@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Charlotte Fuchs",
+        "github": "char275i",
+        "billede": "",
+        "alder": 22,
+        "køn": "k",
+        "email": "char275i@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Marie Andersen",
+        "github": "Marie2300",
+        "billede": "https://www.facebook.com/photo.php?fbid=10217389494555389&set=a.1613354019808&type=3&theater",
+        "alder": 22,
+        "køn": "k",
+        "email": "marie_andersen@outlook.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Dina Marie Vatne",
+        "github": "DinaVatne",
+        "billede": "",
+        "alder": 24,
+        "køn": "",
+        "email": "dina1895@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Patrick Walsh-Vilander",
+        "github": "patr612e",
+        "billede": "",
+        "alder": 22,
+        "køn": "m",
+        "email": "patr612e",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Josefine Margrethe Smidt Hansen",
+        "github": "josefinemargrethe",
+        "billede": "https://www.facebook.com/photo.php?fbid=10216326801096572&set=a.1525298126321&type=3&theater",
+        "alder": 25,
+        "køn": "k",
+        "email": "jose317f@stud.kea.dk",
+        "hold": "",
+        "historie": ""
+  },
+    {
+        "navn": "Nanna Siw Friis Andreassen",
+        "github": "Nann5065",
+        "billede": "https://www.facebook.com/photo.php?fbid=10213834777721378&set=a.1471993277566&type=3&theater",
+        "alder": 20,
+        "køn": "K",
+        "email": "nann5065@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Gustav Bjørn Bang Helgestad",
+        "github": "Gustavbjoern",
+        "billede": "https://www.facebook.com/photo.php?fbid=10207543257715420&set=a.1555890493054&type=3&theater",
+        "alder": 22,
+        "køn": "m",
+        "email": "gust1377@stud.kea.dk",
+        "hold": "a",
+        "historie": "Jeg blev født d. 18.07.96 på roskilde sygehus lige siden har det være rimelig fresh at være mig."
+  },
+    {
+        "navn": "Claudio Saavedra",
+        "github": "clau979i",
+        "billede": "https://www.facebook.com/photo.php?fbid=10154877389010879&set=a.492806925878&type=3&theater",
+        "alder": 126,
+        "køn": "Kommer an på humøret",
+        "email": "Claudiosaavedra89@gmail.com",
+        "hold": "a",
+        "historie": "I et land for længe siden..."
+  },
+    {
+        "navn": "Christina-Maria Evangelista Andersen",
+        "github": "christinaeandersen",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/15895022_1725218421126211_9131947163920674755_n.jpg?_nc_cat=102&_nc_ht=scontent-arn2-1.xx&oh=b85e30f12d63fae86fa738fb2eb9059b&oe=5CF18BB4",
+        "alder": 23,
+        "køn": "k",
+        "email": "christinaeandersen19@gmail.com",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "André Jensen",
+        "github": "andrecjensen",
+        "billede": "https://fsmedia.imgix.net/5c/d0/dd/76/987c/45f7/b1d6/991ddb59f872/vader.jpeg?rect=0%2C140%2C1680%2C840&auto=format%2Ccompress&dpr=2&w=650",
+        "alder": 28,
+        "køn": "m",
+        "email": "andr43a6@stud.kea.dk",
+        "hold": "a",
+        "historie": "You can't handle the truth"
+  },
+    {
+        "navn": "Julie Levin Petersen",
+        "github": "June150992",
+        "billede": "https://www.facebook.com/photo.php?fbid=10205340083097369&set=a.1176806916139&type=3&theater",
+        "alder": 26,
+        "køn": "k",
+        "email": "julie.levin@live.dk",
+        "hold": "",
+        "historie": ""
+  },
+    {
+        "navn": "Astrid Dahrup Andersson",
+        "github": "dahrupanderson",
+        "billede": "",
+        "alder": 23,
+        "køn": "k",
+        "email": "astrid.andersson@yahoo.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Kaktus Frederikke Høy Bendtsen",
+        "github": "kakt0002",
+        "billede": "http://kaktushoey.dk/kea/00-introuge/selvpotraet.jpg",
+        "alder": 22,
+        "køn": "k",
+        "email": "kakt0002@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Cecilie Olrik",
+        "github": "olrikdk",
+        "billede": "http://www.deslijter.nl/images/absint.jpg",
+        "alder": "",
+        "køn": "k",
+        "email": "olrikdk@yahoo.com",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Sofia Tolstrup",
+        "github": "sofi478s",
+        "billede": "",
+        "alder": 24,
+        "køn": "k",
+        "email": "sofi478s@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Sille Agerskov Breum Christensen ",
+        "github": "sille2608",
+        "billede": "https://www.facebook.com/photo.php?fbid=1216509235037080&set=a.157666744254673&type=3&theater",
+        "alder": 23,
+        "køn": "k",
+        "email": "sill2608@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Stella La",
+        "github": "stella2302",
+        "billede": "https://www.facebook.com/Stellala23",
+        "alder": 24,
+        "køn": "",
+        "email": "stel1470@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Oliver Blaxkjær Nielsen",
+        "github": "oliv5773",
+        "billede": "http://blaxkjaer.net/kea/00-introuge/selvportraet.jpeg",
+        "alder": 27,
+        "køn": "m",
+        "email": "oliv5773@stud.kea.dk",
+        "hold": "a",
+        "historie": "Muldvarpen der ville vide..."
+  },
+    {
+        "navn": "Nicklas Oliver Vilhelmsen",
+        "github": "nich2290",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/32486460_10214312941930523_7520107308567756800_n.jpg?_nc_cat=101&_nc_ht=scontent-arn2-1.xx&oh=ba39bc6eb14400035ea107db47c90e91&oe=5CF031CC",
+        "alder": 22,
+        "køn": "m",
+        "email": "nich2290@stud.kea.dk",
+        "hold": "a",
+        "historie": "Og det var fortællingen om....."
+  },
+    {
+        "navn": "Johan Dansgaard",
+        "github": "jjjohanmd",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/18766087_10155295093890890_5991828114129291359_n.jpg?_nc_cat=107&_nc_ht=scontent-arn2-1.xx&oh=37447e77e77a3a3e7cb5335e30c382d6&oe=5CB2EF4D",
+        "alder": 23,
+        "køn": "m",
+        "email": "joha3867@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Ann-Marie Greif",
+        "github": "mariegreif",
+        "billede": "",
+        "alder": 29,
+        "køn": "k",
+        "email": "annx9854@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Natasha Haagensen",
+        "github": "nata4513",
+        "billede": "",
+        "alder": 22,
+        "køn": "k",
+        "email": "nata4513@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Martin Ottesen",
+        "github": "Ottesen02",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/34092942_10214496625041049_3495759515272347648_n.jpg?_nc_cat=108&_nc_ht=scontent-arn2-1.xx&oh=fc315b2bf0e30dc61b355ff259098c16&oe=5CB66AB3",
+        "alder": 23,
+        "køn": "m",
+        "email": "martinottesen@outlook.dk",
+        "hold": "a",
+        "historie": "Loading..."
+  },
+    {
+        "navn": "Simon Christiansen",
+        "github": "simo38c8",
+        "billede": "",
+        "alder": 22,
+        "køn": "m",
+        "email": "simo38c8@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Diana Ngo",
+        "github": "dian1288",
+        "billede": "https://www.facebook.com/photo.php?fbid=10208015079273159&set=a.1448229604094&type=3&theater",
+        "alder": 21,
+        "køn": "k",
+        "email": "dian1288@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Frederik Frost Jensen",
+        "github": "fred84e0",
+        "billede": "https://www.facebook.com/frederik.f.jensen.9",
+        "alder": 23,
+        "køn": "m",
+        "email": "fred84e0@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Mouad Naji",
+        "github": "MouadNaji",
+        "billede": "https://github.com/MouadNaji/tema5",
+        "alder": 21,
+        "køn": "m",
+        "email": "moua0005@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Emilie Friberg",
+        "github": "emiliefriberg",
+        "billede": "https://www.facebook.com/photo.php?fbid=10217579772789135&set=a.1607630193625&type=3&theater",
+        "alder": 24,
+        "køn": "m",
+        "email": "emil6569@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Sarah Davidsen",
+        "github": "sara870v",
+        "billede": "https://github.com/sara870v/tema5",
+        "alder": 21,
+        "køn": "k",
+        "email": "sara870v@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Sophia Svane",
+        "github": "soph6885",
+        "billede": "",
+        "alder": "",
+        "køn": "",
+        "email": "sophia.svane@gmail.com",
+        "hold": "",
+        "historie": ""
+  },
+    {
+        "navn": "Camilla Hau Mogensen Knudsen",
+        "github": "camillahauknudsen",
+        "billede": "https://github.com/camillahauknudsen/tema5",
+        "alder": 21,
+        "køn": "k",
+        "email": "camillahauknudsen@gmail.com",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Regitze Philipsen",
+        "github": "regi2936",
+        "billede": "https://www.facebook.com/photo.php?fbid=10156734195524679&set=a.430109339678&type=3&theater",
+        "alder": 27,
+        "køn": "k",
+        "email": "regi2936@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Jannick Holm",
+        "github": "jann4025",
+        "billede": "http://janhol.dk/kea/selvportraet.jpg",
+        "alder": 21,
+        "køn": "m",
+        "email": "jannick@wonderfestiwall.dk",
+        "hold": "",
+        "historie": ""
+  },
+    {
+        "navn": "Sebastian Heldt Nielsen",
+        "github": "seba3345",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/50456928_2133768943333357_8300292417148420096_n.jpg?_nc_cat=103&_nc_ht=scontent-arn2-1.xx&oh=be5d0dab52238690fc7118e8eae8bb17&oe=5CEBF07C",
+        "alder": 20,
+        "køn": "m",
+        "email": "seba3345@stud.kea.dk",
+        "hold": "b",
+        "historie": "Nothing to see here..."
+  },
+    {
+        "navn": "Natalie Sirich",
+        "github": "nata2653",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/11040931_10207416861958232_1147176910107931795_n.jpg?_nc_cat=102&_nc_ht=scontent-arn2-1.xx&oh=57805afd4421a206f00c5f958453c802&oe=5CE02636",
+        "alder": 23,
+        "køn": "k",
+        "email": "nata2653@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Frederik Bonde",
+        "github": "fred278d",
+        "billede": "https://github.com/yungbundee/tema5",
+        "alder": 22,
+        "køn": "m",
+        "email": "fred278d@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Jakob Woetmann Larsen",
+        "github": "jako210i",
+        "billede": "https://github.com/JakobWoetmannLarsen/tema5",
+        "alder": 22,
+        "køn": "meget køn",
+        "email": "jako210i@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Mathias Wagner Daugaard Larsen",
+        "github": "math26i6",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/39161496_10214235400172632_8653207990075129856_n.jpg?_nc_cat=103&_nc_ht=scontent-arn2-1.xx&oh=eef711e600bc8682b2abc27b67fafb32&oe=5CFEABD8",
+        "alder": 22,
+        "køn": "m",
+        "email": "math26i6@stud.kea.dk",
+        "hold": "b",
+        "historie": "Dank"
+  },
+    {
+        "navn": "Emil Behrndtz",
+        "github": "emil5885",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/38406524_10215179567339059_4215752611409690624_o.jpg?_nc_cat=106&_nc_ht=scontent-arn2-1.xx&oh=eaef2b58c339f41c3898af76625bfd27&oe=5CF9BE45",
+        "alder": 23,
+        "køn": "m",
+        "email": "emil5885@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Irene Seedorff",
+        "github": "ireneseedorff",
+        "billede": "https://www.facebook.com/photo.php?fbid=10218231995617645&set=a.1613705188843&type=3&theater",
+        "alder": 23,
+        "køn": "k",
+        "email": "iren3024@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Annalee Engsted",
+        "github": "annaleeengsted3",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/51228018_10216651380849914_695503939939860480_o.jpg?_nc_cat=105&_nc_ht=scontent-arn2-1.xx&oh=ac561bcfde0f1d278c411485192fe1a1&oe=5CB6F8EC",
+        "alder": 27,
+        "køn": "k",
+        "email": "anna423u@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Maj Roslyng Larsen",
+        "github": "majx1185",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/14199473_1114162655343052_3509591963589948456_n.jpg?_nc_cat=111&_nc_ht=scontent-arn2-1.xx&oh=52e3635e742b3352e6806e804cd61127&oe=5CE53543",
+        "alder": 20,
+        "køn": "k",
+        "email": "majx1185@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Aisling Kathrine Kassow",
+        "github": "aisl0019",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/44186021_10214455404792964_606894044454322176_n.jpg?_nc_cat=108&_nc_ht=scontent-arn2-1.xx&oh=4250cf6e751354e25e0266ea24ce6c36&oe=5CEE55BD",
+        "alder": 20,
+        "køn": "k",
+        "email": "aisl0019@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Lauge Elkær Furhauge",
+        "github": "laug1065",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/32420302_10212059086412094_878710923911495680_n.jpg?_nc_cat=111&_nc_ht=scontent-arn2-1.xx&oh=8eab8ebcd228f7ad4dd1b50ab01e34cf&oe=5CE938FD",
+        "alder": 22,
+        "køn": "m",
+        "email": "laug1065@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Naja Lynge",
+        "github": "naja1270",
+        "billede": "https://github.com/najalyngee/Tema5",
+        "alder": "",
+        "køn": "k",
+        "email": "naja1270@stud.kea.dk",
+        "hold": "",
+        "historie": ""
+  },
+    {
+        "navn": "Nick Hestehauge",
+        "github": "nick088g",
+        "billede": "https://nickhestehauge.dk/kea",
+        "alder": 25,
+        "køn": "m",
+        "email": "nick088g@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Julie Freund-Poulsen",
+        "github": "juli10c3",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/32349365_1879032212109192_8825470306454863872_n.jpg?_nc_cat=111&_nc_ht=scontent-arn2-1.xx&oh=a21d63dbcdbcafcc40fb53ef040c2ecb&oe=5CED7524",
+        "alder": 22,
+        "køn": "k",
+        "email": "juli10c3@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Laura Villumsen Taboryski",
+        "github": "laur173n",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/40039557_10215195855042595_21859068549267456_o.jpg?_nc_cat=109&_nc_ht=scontent-arn2-1.xx&oh=bb8da59eb5961a59dd6d180c939c6f12&oe=5CEA268E",
+        "alder": 21,
+        "køn": "k",
+        "email": "laur173n@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Mille Ritter Schneider",
+        "github": "mill6515",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/43406042_2079525622098319_6239703697077567488_n.jpg?_nc_cat=103&_nc_ht=scontent-arn2-1.xx&oh=4852dd3975c8bf19fc0b256c0fee825d&oe=5CB3C9D8",
+        "alder": 21,
+        "køn": "k",
+        "email": "mill6515@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Norwin M. A.",
+        "github": "norw0001",
+        "billede": "http://breaksic.dk/kea/selvportraet.jpg",
+        "alder": 20,
+        "køn": "k",
+        "email": "norw0001@stud.kea.dk",
+        "hold": "b",
+        "historie": "You do not have access to the following content"
+  },
+    {
+        "navn": "Alexander Lindhardt-Meller",
+        "github": "alexdiva1234",
+        "billede": "https://github.com/alexdiva1234/tema5",
+        "alder": 27,
+        "køn": "meget",
+        "email": "alex8083@stud.kea.dk",
+        "hold": "b",
+        "historie": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  },
+    {
+        "navn": "Iben Nielsen",
+        "github": "iben1252",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/22519314_10213169104574815_7869221587505701525_n.jpg?_nc_cat=108&_nc_ht=scontent-arn2-1.xx&oh=56e87dea0f7bb53e1d60c079a7999e20&oe=5CB652E1",
+        "alder": 20,
+        "køn": "k",
+        "email": "iben1252@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Morgan Grage",
+        "github": "morgietalkie",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/16819473_10210799036365714_2193931335482773842_o.jpg?_nc_cat=101&_nc_ht=scontent-arn2-1.xx&oh=f5f5c2c026c33020243586d904b18355&oe=5CF2C86D",
+        "alder": 22,
+        "køn": "m",
+        "email": "morg0245@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Maria Frøsig",
+        "github": "mariafrosig",
+        "billede": "https://github.com/mariafrosig/tema5",
+        "alder": 21,
+        "køn": "k",
+        "email": "mari43fe@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Chrixtian Akkermann ",
+        "github": "Akkermann1997",
+        "billede": "https://github.com/Akkermann1997/Tema-5.git",
+        "alder": 22,
+        "køn": "k",
+        "email": "chri4h49@stud.kea.dk",
+        "hold": "b",
+        "historie": "Kl 08.30 er tideligt.."
+  },
+    {
+        "navn": "Josephine Emilie Kjeller",
+        "github": "jose318f",
+        "billede": "https://github.com/jose318f",
+        "alder": 25,
+        "køn": "k",
+        "email": "jose318f@stud.kea.dk",
+        "hold": "b",
+        "historie": "\"you dont know me!\" - rick and morty anyone??"
+  },
+    {
+        "navn": "Astrid Hostrup-Pedersen",
+        "github": "astr1770",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/15284042_1255920677764361_6477893689215810578_n.jpg?_nc_cat=101&_nc_ht=scontent-arn2-1.xx&oh=625d5f82da17280d3af690aa2c78ca11&oe=5CEC1E49",
+        "alder": 20,
+        "køn": "k",
+        "email": "astr1770@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Alberte Egholm",
+        "github": "albe9223",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-1/c57.43.761.761a/47503509_10156961313129374_1613142136729894912_o.jpg?_nc_cat=105&_nc_ht=scontent-arn2-1.xx&oh=d04eb19c2578fd5249028006b375a972&oe=5CE0FD02",
+        "alder": "",
+        "køn": "",
+        "email": "alberteegholm@hotmail.com",
+        "hold": "",
+        "historie": ""
+  },
+    {
+        "navn": "Naomi-Sophia Tangø",
+        "github": "naom0082",
+        "billede": "https://github.com/naom0082/tema5.git",
+        "alder": 25,
+        "køn": "k",
+        "email": "naom0082@stud.kea.dk",
+        "hold": "",
+        "historie": ""
+  },
+    {
+        "navn": "Emilie H. B. S. B. Madsbjerg",
+        "github": "emiliemadsbjerg",
+        "billede": "https://scontent-arn2-2.xx.fbcdn.net/v/t1.0-9/25660428_10214842572523698_8495867296638725677_n.jpg?_nc_cat=104&_nc_ht=scontent-arn2-2.xx&oh=7f76ca40cef2d6e433f341c83798b807&oe=5CF198C5",
+        "alder": 22,
+        "køn": "k",
+        "email": "emil46i2@stud.kea.dk",
+        "hold": "b",
+        "historie": "Jeg har lige spist en pære :D"
+  },
+    {
+        "navn": "Joanna Nhi Nguyen ",
+        "github": "joan5168",
+        "billede": "http://widespace.dk/kea/00-introuge/selvportraet.jpeg",
+        "alder": 21,
+        "køn": "k",
+        "email": "joan5168@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Natasha Schmidt",
+        "github": "NatashaSchmidt",
+        "billede": "http://noregrets.dk/kea/portfolio/billeder/selvportaet2.jpeg",
+        "alder": 22,
+        "køn": "k",
+        "email": "nata850b@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Karoline Krogsbøll",
+        "github": "karo6603",
+        "billede": "http://karolinekrogsboell.dk/kea/selvportraet.jpg",
+        "alder": 25,
+        "køn": "k",
+        "email": "karo6603@stud.kea.dk",
+        "hold": "b",
+        "historie": "Karón"
+  },
+    {
+        "navn": "Pernille Wilhelmine Risløv",
+        "github": "pern693p",
+        "billede": "http://pernillewilhelmine.com/kea/selvportraet.jpg",
+        "alder": 24,
+        "køn": "k",
+        "email": "pern693p@stud.kea.dk",
+        "hold": "b",
+        "historie": "Pernus "
+  },
+    {
+        "navn": "Camilla Gejl Olsen",
+        "github": "cami32d9",
+        "billede": "https://github.com/cami32d9",
+        "alder": 23,
+        "køn": "k",
+        "email": "cami32d9@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Shania Mahdi",
+        "github": "shan0211",
+        "billede": "https://github.com/Shan0211/tema5",
+        "alder": 22,
+        "køn": "m",
+        "email": "shan0211@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Maria Østergaard Andersen",
+        "github": "mari597r",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/15825823_1403959233010009_4517939030153390680_n.jpg?_nc_cat=102&_nc_ht=scontent-arn2-1.xx&oh=d472c27e7241618e2295e903da7b1913&oe=5CE63DA3",
+        "alder": 20,
+        "køn": "k",
+        "email": "mari697r@stud.kea.dk",
+        "hold": "b",
+        "historie": "dunno yet"
+  },
+    {
+        "navn": "Caroline Bredal Malmgren",
+        "github": "caro2705",
+        "billede": "https://github.com/caro2705/tema5",
+        "alder": 21,
+        "køn": "k",
+        "email": "caro2705@stud.kea.dk",
+        "hold": "b",
+        "historie": "Jeg har lige spist halvdelen af min banan."
+  },
+    {
+        "navn": "Julie Prieme Østergaard Hansen",
+        "github": "juli9499",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/13243954_1227460770607010_1516920499506339807_o.jpg?_nc_cat=103&_nc_ht=scontent-arn2-1.xx&oh=b258c59e98be48a327afa63bf5accbea&oe=5CB4778E",
+        "alder": 21,
+        "køn": "k",
+        "email": "juli9499@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Natalie Goldman Kühl",
+        "github": "nata6431",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/23319506_1808413082555856_3520796698481080268_n.jpg?_nc_cat=108&_nc_ht=scontent-arn2-1.xx&oh=d943a728a2e83edb0b113143506d6cb4&oe=5CB57ADC",
+        "alder": 21,
+        "køn": "k",
+        "email": "nata6431@stud.kea.dk",
+        "hold": "b",
+        "historie": "chiller bare "
+  },
+    {
+        "navn": "Jack Nierras Beltran",
+        "github": "Jacknierras5",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/14102665_10208206080648881_6594403806012963282_n.jpg?_nc_cat=110&_nc_ht=scontent-arn2-1.xx&oh=bc56350f2e4723eb3bb687b522406835&oe=5CB62720",
+        "alder": 22,
+        "køn": "m",
+        "email": "jack0516@stud.kea.dk",
+        "hold": "b",
+        "historie": "personen på række 82 er en bums"
+  },
+    {
+        "navn": "Anders Hønnicke Kyst",
+        "github": "ande47d6",
+        "billede": "https://github.com/andershk123/tema-5.git",
+        "alder": 22,
+        "køn": "m",
+        "email": "ande47d6@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Stine Aagaard",
+        "github": "stin029j",
+        "billede": "https://www.facebook.com/photo.php?fbid=10216702853183696&set=a.1590865971533&type=3&theater",
+        "alder": 23,
+        "køn": "k",
+        "email": "stin029j@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Marie Serup",
+        "github": "mari786s",
+        "billede": "https://www.facebook.com/photo.php?fbid=10204466737546087&set=a.1173450714047&type=3&theater",
+        "alder": 22,
+        "køn": "k",
+        "email": "mari786s@stud.kea.dk",
+        "hold": "b",
+        "historie": "See more"
+  },
+    {
+        "navn": "Aske Rif Torbensen",
+        "github": "aske1312",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/1619546_10152812827513482_4615499998269407832_n.jpg?_nc_cat=106&_nc_ht=scontent-arn2-1.xx&oh=1eeab8687d565a4bb6ba14484889c426&oe=5CE5C5EC",
+        "alder": "",
+        "køn": "m",
+        "email": "aske1312@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Maria Crone Hvidberg",
+        "github": "mari44fe",
+        "billede": "https://github.com/mari44fe/tema5",
+        "alder": 28,
+        "køn": "k",
+        "email": "mari44fe@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Benjamin Worm",
+        "github": "BenjaBenjamin",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/16406571_1360056860702804_2652335261443397862_n.jpg?_nc_cat=111&_nc_ht=scontent-arn2-1.xx&oh=6d4bb430e1a03dd72f888cd5b5d573ed&oe=5CB42B81",
+        "alder": 20,
+        "køn": "m",
+        "email": "Benja_2@hotmail.dk",
+        "hold": "b",
+        "historie": ""
+  },
+    {
+        "navn": "Mads Birkholm Hansen",
+        "github": "birkenopidig",
+        "billede": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/20604525_10207666762225330_7969273418451543294_n.jpg?_nc_cat=105&_nc_ht=scontent-arn2-1.xx&oh=b0dd91ecaf8752ad4944e488af9eb036&oe=5CED6F27",
+        "alder": 22,
+        "køn": "",
+        "email": "mads43e9@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Amalie Groth",
+        "github": "amal4488",
+        "billede": "https://www.facebook.com/photo.php?fbid=10213577543781048&set=a.1583297270454&type=3&theater",
+        "alder": 24,
+        "køn": "k",
+        "email": "amal4488@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Sunniva Hyllseth",
+        "github": "sunn0255",
+        "billede": "https://www.facebook.com/photo.php?fbid=10150925132729379&set=a.434057884378&type=3&theater",
+        "alder": 27,
+        "køn": "k",
+        "email": "sunn0255@stud.kea.dk",
+        "hold": "a",
+        "historie": ""
+  },
+    {
+        "navn": "Cecillia Kampf",
+        "github": "cecilliasarrah",
+        "billede": "https://www.facebook.com/photo.php?fbid=10216243356550833&set=a.1486616579629&type=3&theater",
+        "alder": 21,
+        "køn": "k",
+        "email": "hann5521@stud.kea.dk",
+        "hold": "b",
+        "historie": ""
+  }
+]
