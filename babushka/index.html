@@ -42,6 +42,7 @@
         .valgt {
             background-color: red;
         }
+
     </style>
 </head>
 
@@ -49,9 +50,11 @@
     <h1>Personer</h1>
     <nav>
         <button data-køn="alle" class="valgt">Alle</button>
-        <button data-køn="k">Kvinder</button>
-        <button data-køn="m">Mænd</button>
-        <button data-køn="andet">Andet</button>
+        <button data-køn="forretter">Forretter</button>
+        <button data-køn="Hovedretter">Mænd</button>
+        <button data-køn="Desserter">Desserter</button>
+        <button data-køn="Drikkevarer">Drikkevarer</button>
+        <button data-køn="Sideorders">Sideorders</button>
     </nav>
     <section id="person-liste"></section>
 
@@ -67,7 +70,7 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", start);
-        const url = `https://spreadsheets.google.com/feeds/list/1Xge7slZ9dEOTCn1Yxl3OE4xgvrXOL8Y_iu3WN1yGB1U/od6/public/values?alt=json`;
+        const url = `https://spreadsheets.google.com/feeds/17Dd7DvkPaFamNUdUKlrFgnH6POvBJXac7qyiS6zNRw0/od6/public/values?alt=json`;
         let personer;
         let filter = "alle";
 
@@ -111,5 +114,8 @@
                 }
             })
         }
+
     </script>
-</body></html>
+</body>
+
+</html>
