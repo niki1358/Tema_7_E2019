@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        img {
+            width: 100%;
+        }
+
+        .person {
+            padding: 1em;
+        }
+
+        #detalje luk {
+            position: fixed;
+            top: 0;
+            left: 0;
+            font-size: 4rem;
+            cursor: pointer;
+        }
+
+        #detalje person {
+            width: 60vw;
+            min-height: 50vh;
+            margin: auto;
+            padding: 4rem;
+            background: white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <section id="detalje">
+        <article class="person">
+            <button class="luk">◁</button>
+            <h2></h2>
+            <img src="" alt="">
+            <p>Github: <a class="githubLink" href=""></a></p>
+        </article>
+    </section>
+
+
+
+
+    <!--Det er det her vi bruger til at style med, når vi ikke har fået data ind endnu:-->
+    <!--
+    <section id="detalje">
+        <article class="person">
+            <button class="luk">◁</button>
+            <h2></h2>
+            <img src="https://kvikea.dk/pix1.jpg" alt="">
+            <p>Github: <a class="githubLink" href="#">github.com/kvikea</a></p>
+        </article>
+    </section>
+-->
+
+
+</body>
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const github = urlParams.get("github");
+    console.log(github);
+
+    let personer
+    const url = `https://spreadsheets.google.com/feeds/list/1Xge7slZ9dEOTCn1Yxl3OE4xgvrXOL8Y_iu3WN1yGB1U/od6/public/values?alt=json`;
+
+    document.addEventListener("DOMContentLoaded", start);
+
+
+    //Første funktion der kaldes efter DOM er loaded
+    function start() {
+        loadData();
+
+    }
+
+    //Funktionen der henter dataen fra Google sheet
+    async function loadData() {
+        const response = await fetch(url);
+        personer = await response.json();
+        vis();
+    }
+
+    //Funktion der viser personer i liste view
+    function vis() {
+
+        personer.feed.entry.forEach(person => {
+            if (person.gsx$github.$t == github) { //Loop gennem json
+                document.querySelector("#detalje h2").textContent = person.gsx$navn.$t;
+                document.querySelector("#detalje img").src = person.gsx$billede.$t;
+                document.querySelector("#detalje img").alt = `Portræt af ${person.gsx$billede.$t}`;
+                document.querySelector("#detalje .githubLink").href = `https://github.com/${person.gsx$github.$t}`;
+                document.querySelector("#detalje .githubLink").textContent = `github.com/${person.gsx$github.$t}`;
+
+
+                document.querySelector(".luk").addEventListener("click", () => {
+                    history.back();
+                })
+
+
+
+            };
+        });
+    }
+
+</script>
+
+</html>

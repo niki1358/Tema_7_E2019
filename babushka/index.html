@@ -38,8 +38,37 @@
             margin: 10px;
             padding: 10px;
             background: #ffffff;
+        }
 
+        #detalje {
+            position: fixed;
+            display: none;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: hsla(282, 22%, 31%, 0.53);
+            overflow: scroll;
+        }
 
+        #detalje .luk {
+            position: fixed;
+            top: 0;
+            right: 0;
+            font-size: 4rem;
+            cursor: pointer;
+        }
+
+        #detalje .menu {
+            width: 60vw;
+            min-height: 50vh;
+            margin: 4rem auto;
+            padding: 4rem;
+            background: white;
+        }
+
+        #detalje img {
+            width: 100%
         }
 
         a {
@@ -73,7 +102,6 @@
             box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
             transition: all 0.4s ease 0s;
         }
-
     </style>
 </head>
 
@@ -88,6 +116,16 @@
         <button data-ret="sideorders">Sideorders</button>
     </nav>
     <section id="menukort"></section>
+    <section id="detalje">
+        <article class="menu">
+            <h2 class="navn"></h2>
+            <button class="luk">✕</button>
+            <img src="" alt="">
+            <p class="beskrivelse-lang"></p>
+            <p class="pris"></p>
+
+        </article>
+    </section>
 
     <template>
         <article class="menu">
@@ -110,7 +148,7 @@
 
         //Første funktion der kaldes efter DOM er loaded
         function start() {
-            const filterKnapper = document.querySelectorAll("button");
+            const filterKnapper = document.querySelectorAll("nav button");
             filterKnapper.forEach(knap => knap.addEventListener("click", filtrerRetter));
             loadData();
         }
@@ -145,12 +183,32 @@
                     klon.querySelector(".beskrivelse-kort").textContent += " " + ret.gsx$kort.$t;
                     klon.querySelector(".pris").textContent += ret.gsx$pris.$t + "kr.";
                     klon.querySelector(".ret-billede").src = "/imgs/small/" + ret.gsx$billede.$t + "-sm.jpg";
+                    klon.querySelector(".menu").addEventListener("click", () => {
+                        visDetalje(ret);
+                    });
                     dest.appendChild(klon);
                 }
             })
         }
 
-    </script>
-</body>
+        function visDetalje(ret) {
+            console.log(ret);
 
-</html>
+            document.querySelector("#detalje").style.display = "block";
+
+            document.querySelector("#detalje .luk").addEventListener("click", skjulDetalje);
+
+            document.querySelector("#detalje h2").textContent = ret.gsx$navn.$t;
+            document.querySelector("#detalje img").src = "/imgs/large/" + ret.gsx$billede.$t + ".jpg";
+            document.querySelector("#detalje img").alt = `Billede af ${ret.gsx$billede.$t}`;
+            document.querySelector("#detalje .beskrivelse-lang").textContent += " " + ret.gsx$lang.$t;
+            document.querySelector("#detalje .pris").textContent += ret.gsx$pris.$t + "kr.";
+
+
+        }
+
+        function skjulDetalje() {
+            document.querySelector("#detalje").style.display = "none";
+        }
+    </script>
+</body></html>

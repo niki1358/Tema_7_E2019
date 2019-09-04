@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            max-width: 1420px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        img {
+            width: 150px;
+        }
+
+        #person-liste {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        }
+
+        article {
+
+            font-family: monospace;
+            text-align: center;
+            border: solid black 2px;
+            margin: 10px;
+            padding: 10px;
+            background: #c72944;
+            cursor: pointer;
+
+        }
+
+        #detalje {
+            position: fixed;
+            display: none;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: hsla(282, 22%, 31%, 0.53);
+            overflow: scroll;
+        }
+
+        #detalje .luk {
+            position: fixed;
+            top: 0;
+            right: 0;
+            font-size: 4rem;
+            cursor: pointer;
+        }
+
+        #detalje .person {
+            width: 60vw;
+            min-height: 50vh;
+            margin: 4rem auto;
+            padding: 4rem;
+            background: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: darkred;
+            font-size: 1rem;
+
+        }
+
+        .valgt {
+            background-color: red;
+        }
+
+        button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personer</h1>
+    <nav>
+        <button data-køn="alle" class="valgt">Alle</button>
+        <button data-køn="k">Kvinder</button>
+        <button data-køn="m">Mænd</button>
+        <button data-køn="andet">Andet</button>
+    </nav>
+    <section id="person-liste"></section>
+    <section id="detalje">
+        <article class="person">
+            <button class="luk">✕</button>
+            <h2>Github</h2>
+            <img src="" alt="">
+            <p><a class="githubLink" href="" target="_blank"></a></p>
+        </article>
+    </section>
+
+    <template>
+        <article class="person">
+            <h2 class="navn"></h2>
+            <a href=""></a>
+            <img src="" alt="" class="profil-billede">
+        </article>
+    </template>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", start);
+        const url = `https://spreadsheets.google.com/feeds/list/1Xge7slZ9dEOTCn1Yxl3OE4xgvrXOL8Y_iu3WN1yGB1U/od6/public/values?alt=json`;
+        let personer;
+        let filter = "alle";
+
+        //Første funktion der kaldes efter DOM er loaded
+        function start() {
+            const filterKnapper = document.querySelectorAll("nav button");
+            filterKnapper.forEach(knap => knap.addEventListener("click", filtrerPersoner));
+            loadData();
+
+        }
+
+        //En funktion der filtrerer personerne (json)
+        function filtrerPersoner() {
+            filter = this.dataset.køn; //Sæt variable "filter" til aktuel værdi
+            document.querySelector(".valgt").classList.remove("valgt"); // Fjern den valgte klasse på knappen
+            this.classList.add("valgt"); //Marker den nye knap
+            vis(); //Kald funktionen "vis" igen med nyt filter
+
+        }
+
+        //Funktion der henter data fra Google Sheet (via url)
+        async function loadData() {
+            const response = await fetch(url);
+            personer = await response.json();
+            vis();
+        }
+
+        //Funktion der viser personer i liste view
+        function vis() {
+            const skabelon = document.querySelector("template").content; // Select indhold af html-skabelonen (article)
+            const dest = document.querySelector("#person-liste"); // Container til artikler
+            dest.textContent = ""; //Slet det der står i filter
+
+            personer.feed.entry.forEach(person => { //Her looper vi igennem json (personer)
+                if (person.gsx$køn.$t == filter || filter == "alle") { // tjek hvilket køn personen har og sammenling med filter
+
+                    const klon = skabelon.cloneNode(true);
+                    klon.querySelector(".navn").textContent = person.gsx$navn.$t;
+                    klon.querySelector(".navn").textContent += " " + person.gsx$hold.$t;
+                    klon.querySelector(".profil-billede").src = person.gsx$billede.$t;
+                    klon.querySelector(".person").addEventListener("click", () => {
+                        visDetalje(person);
+                    });
+
+                    dest.appendChild(klon);
+                }
+            })
+
+
+        }
+
+        function visDetalje(person) {
+            console.log(person);
+
+            document.querySelector("#detalje").style.display = "block";
+
+            document.querySelector("#detalje .luk").addEventListener("click", skjulDetalje);
+
+            document.querySelector("#detalje h2").textContent = person.gsx$navn.$t;
+            document.querySelector("#detalje img").src = person.gsx$billede.$t;
+            document.querySelector("#detalje img").alt = `Portræt af ${person.gsx$billede.$t}`;
+            document.querySelector("#detalje .githubLink").href = `https://github.com/${person.gsx$github.$t}`;
+            document.querySelector("#detalje .githubLink").textContent = `github.com/${person.gsx$github.$t}`;
+
+
+        }
+
+        function skjulDetalje() {
+            document.querySelector("#detalje").style.display = "none";
+        }
+    </script>
+</body></html>
