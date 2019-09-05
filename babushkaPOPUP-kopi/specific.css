@@ -1,0 +1,33 @@
+img {
+    width: 100%;
+}
+
+#detalje {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: hsla(282, 22%, 31%, 0.53);
+    overflow: scroll;
+}
+
+.pris {
+    font-size: 2rem;
+}
+
+#detalje .luk {
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+#detalje .menu {
+    width: 60vw;
+    min-height: 50vh;
+    margin: 4rem auto;
+    padding: 4rem;
+    background: white;
+}
