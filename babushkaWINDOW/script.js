@@ -43,7 +43,7 @@
                     klon.querySelector(".navn").textContent = ret.gsx$navn.$t;
                     klon.querySelector(".beskrivelse-kort").textContent += " " + ret.gsx$kort.$t;
                     klon.querySelector(".pris").textContent += ret.gsx$pris.$t + "kr.";
-                    klon.querySelector(".ret-billede").src = "/imgs/small/" + ret.gsx$billede.$t + "-sm.jpg";
+                    klon.querySelector(".ret-billede").src = "imgs/small/" + ret.gsx$billede.$t + "-sm.jpg";
                     klon.querySelector(".menu").addEventListener("click", () => {
                         location.href = `specific.html?id=${ret.gsx$id.$t}`;
                     });
@@ -60,7 +60,7 @@
             document.querySelector("#detalje .luk").addEventListener("click", skjulDetalje);
 
             document.querySelector("#detalje h2").textContent = ret.gsx$navn.$t;
-            document.querySelector("#detalje img").src = "/imgs/large/" + ret.gsx$billede.$t + ".jpg";
+            document.querySelector("#detalje img").src = "imgs/large/" + ret.gsx$billede.$t + ".jpg";
             document.querySelector("#detalje img").alt = `Billede af ${ret.gsx$billede.$t}`;
             document.querySelector("#detalje .beskrivelse-lang").textContent += " " + ret.gsx$lang.$t;
             document.querySelector("#detalje .pris").textContent += ret.gsx$pris.$t + "kr.";

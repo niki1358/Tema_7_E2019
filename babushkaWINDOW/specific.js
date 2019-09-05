@@ -23,7 +23,7 @@ function vis() {
     retter.feed.entry.forEach(ret => {
         if (ret.gsx$id.$t == id) {
             document.querySelector("#detalje h2").textContent = ret.gsx$navn.$t;
-            document.querySelector("#detalje img").src = "/imgs/large/" + ret.gsx$billede.$t + ".jpg";
+            document.querySelector("#detalje img").src = "imgs/large/" + ret.gsx$billede.$t + ".jpg";
             document.querySelector("#detalje img").alt = `Billede af ${ret.gsx$billede.$t}`;
             document.querySelector("#detalje .beskrivelse-lang").textContent += " " + ret.gsx$lang.$t;
             document.querySelector("#detalje .pris").textContent += ret.gsx$pris.$t + "kr.";
